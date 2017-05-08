@@ -10,7 +10,9 @@ The program should takes an argument from the command line that specifies the am
 1. Install the library with `gem install multipri`
 2. Run it, passing in the table size: `multipri --count 5`
 
-It will output a table similar to the following
+It will output a table similar to the following:
+
+![10x10 table](docs/table-10x10.png)
 
 ## Development
 

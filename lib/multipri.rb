@@ -1,5 +1,5 @@
 require "multipri/version"
+require 'multipri/app'
 
 module Multipri
-  # Your code goes here...
 end
