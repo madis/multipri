@@ -32,7 +32,7 @@ module Multipri
     end
 
     def generate
-      primes = Prime.first(@size)
+      primes = Prime.new.first(@size)
       @row_titles = primes
       @rows = primes.map do |p|
         Row.new(p, primes.map { |q| p * q })
